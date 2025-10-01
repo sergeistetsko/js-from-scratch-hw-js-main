@@ -5,6 +5,7 @@
 
 function isNumeric(str) {
   // your code
+  return isFinite(str) && str.trim() !== ''
 }
 
 // console.log(isNumeric("123")) // Ожидаемый результат: true
